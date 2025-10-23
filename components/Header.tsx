@@ -47,12 +47,9 @@ export default function Header() {
           {/* Logo ve Şirket Adı */}
           <Link href="/" className="flex items-center gap-4 hover:opacity-90 transition flex-shrink-0">
             <Logo />
-            <div className="hidden sm:block border-l border-red-400 pl-4">
-              <h1 className="text-2xl md:text-3xl font-bold text-white tracking-tight">Atalay Servis</h1>
+            <div className="border-l border-red-400 pl-4">
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight">Atalay Servis</h1>
               <p className="text-xs md:text-sm text-red-100 font-semibold tracking-wide">PROFESYONEL TAMIRCISI</p>
-            </div>
-            <div className="sm:hidden">
-              <h1 className="text-2xl font-bold text-white">Atalay</h1>
             </div>
           </Link>
 

@@ -33,7 +33,7 @@ export default function HeroSlider() {
   ];
 
   return (
-    <section className="relative h-64 sm:h-80 md:h-96 lg:h-screen overflow-hidden">
+    <section className="relative h-80 sm:h-96 md:h-[500px] lg:h-screen overflow-hidden">
       <style>{`
         @keyframes zoomIn {
           from {
