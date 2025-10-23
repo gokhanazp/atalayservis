@@ -24,7 +24,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-red-600 to-red-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🔧</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg></span>
                 Arıza Teşhisi ve Onarımı
               </h3>
             </div>
@@ -89,7 +89,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-orange-600 to-orange-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🧹</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
                 Düzenli Bakım ve Temizlik
               </h3>
             </div>
@@ -171,7 +171,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-orange-600 to-orange-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🧼</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></span>
                 Temizlik ve Dezenfeksiyon
               </h3>
             </div>
@@ -236,7 +236,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-yellow-600 to-yellow-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🔧</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg></span>
                 Arıza Teşhisi ve Onarımı
               </h3>
             </div>
@@ -513,7 +513,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-orange-600 to-orange-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🧹</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span>
                 Filtre Temizliği
               </h3>
             </div>
@@ -578,7 +578,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-red-600 to-red-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🔧</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg></span>
                 Arıza Teşhisi
               </h3>
             </div>
@@ -725,7 +725,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-purple-600 to-purple-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🔧</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg></span>
                 Ekipman Onarımı
               </h3>
             </div>
@@ -920,7 +920,7 @@ const services: Record<string, any> = {
           <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all">
             <div class="bg-gradient-to-r from-green-600 to-green-500 px-8 py-6">
               <h3 class="text-2xl font-bold text-white flex items-center gap-3">
-                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">🚨</span>
+                <span class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></span>
                 Acil Servis (24/7)
               </h3>
             </div>
