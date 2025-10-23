@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { Facebook, Twitter, Instagram, Phone, Mail, Clock } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -50,13 +51,13 @@ export default function Footer() {
               {/* Social Links */}
               <div className="flex gap-3">
                 <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  <Facebook className="w-5 h-5" />
                 </a>
                 <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"/></svg>
+                  <Twitter className="w-5 h-5" />
                 </a>
                 <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16.5 12.5c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4z" fill="black"/><circle cx="17.5" cy="6.5" r="1.5" fill="black"/></svg>
+                  <Instagram className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -89,7 +90,7 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li>
                   <a href="tel:+905013001981" className="flex items-center gap-2 text-gray-400 hover:text-red-600 transition">
-                    <span className="text-red-600">📞</span>
+                    <Phone className="w-5 h-5 text-red-600 flex-shrink-0" />
                     <div className="text-sm">
                       <p className="font-semibold text-white">+90 501 300 19 81</p>
                       <p className="text-xs text-gray-500">24/7 Hizmet</p>
@@ -98,7 +99,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="mailto:info@atalayservis.com" className="flex items-center gap-2 text-gray-400 hover:text-red-600 transition">
-                    <span className="text-red-600">📧</span>
+                    <Mail className="w-5 h-5 text-red-600 flex-shrink-0" />
                     <div className="text-sm">
                       <p className="font-semibold text-white">info@atalayservis.com</p>
                       <p className="text-xs text-gray-500">E-mail Gönder</p>
@@ -124,8 +125,9 @@ export default function Footer() {
                   <span className="text-gray-400">Pazar</span>
                   <span className="text-red-600 font-semibold">Kapalı</span>
                 </li>
-                <li className="pt-2 border-t border-gray-800 mt-2">
-                  <span className="text-red-600 font-bold text-xs">🚨 ACİL SERVİS: 24/7</span>
+                <li className="pt-2 border-t border-gray-800 mt-2 flex items-center gap-2">
+                  <Clock className="w-4 h-4 text-red-600" />
+                  <span className="text-red-600 font-bold text-xs">ACİL SERVİS: 24/7</span>
                 </li>
               </ul>
             </div>
