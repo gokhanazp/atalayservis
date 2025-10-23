@@ -75,10 +75,10 @@ Proje klasöründe aşağıdaki dosyaları bulabilirsiniz:
 
 ### Dinamik Hizmet Sayfaları
 ```
-✅ /hizmetler/ocak-servisi
-✅ /hizmetler/izgara-servisi
-✅ /hizmetler/fritoz-servisi
-✅ /hizmetler/kuzine-servisi
+✅ /hizmetler/atalay-ocak-servisi
+✅ /hizmetler/atalay-izgara-servisi
+✅ /hizmetler/atalay-fritoz-servisi
+✅ /hizmetler/atalay-kuzine-servisi
 ```
 
 ### Dinamik İlçe Sayfaları (34 adet)

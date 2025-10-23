@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 
 // Hizmet verileri
 const services: Record<string, any> = {
-  'ocak-servisi': {
+  'atalay-ocak-servisi': {
     title: 'Ocak Servisi',
     description: 'Profesyonel ocak bakım ve onarım hizmetleri',
     keywords: 'ocak servisi, ocak onarım, ocak bakım, İstanbul',
@@ -153,7 +153,7 @@ const services: Record<string, any> = {
       </div>
     `,
   },
-  'izgara-servisi': {
+  'atalay-izgara-servisi': {
     title: 'Izgara Servisi',
     description: 'Izgara temizliği, bakım ve onarım hizmetleri',
     keywords: 'izgara servisi, izgara onarım, izgara bakım, İstanbul',
@@ -430,7 +430,7 @@ const services: Record<string, any> = {
       </div>
     `,
   },
-  'fritoz-servisi': {
+  'atalay-fritoz-servisi': {
     title: 'Fritöz Servisi',
     description: 'Fritöz bakım, temizlik ve onarım hizmetleri',
     keywords: 'fritöz servisi, fritöz onarım, fritöz bakım, İstanbul',
@@ -707,7 +707,7 @@ const services: Record<string, any> = {
       </div>
     `,
   },
-  'kuzine-servisi': {
+  'atalay-kuzine-servisi': {
     title: 'Kuzine Servisi',
     description: 'Endüstriyel kuzine ekipmanları bakım ve onarım',
     keywords: 'kuzine servisi, kuzine onarım, kuzine bakım, İstanbul',

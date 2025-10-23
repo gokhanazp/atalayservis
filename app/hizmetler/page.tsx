@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Services() {
   const services = [
     {
-      id: 'ocak-servisi',
+      id: 'atalay-ocak-servisi',
       title: 'Atalay Ocak Servisi',
       description: 'Profesyonel ocak tamircisi ve bakım hizmetleri',
       details: 'Atalay ocak tamircisi olarak tüm markaların ocaklarına profesyonel servis hizmetleri sunuyoruz. Arıza teşhisi, parça değişimi, bakım ve temizlik hizmetleri ile ocak ekipmanlarınızın uzun ömürlü kullanımını sağlarız.',
@@ -21,7 +21,7 @@ export default function Services() {
       icon: '🔥',
     },
     {
-      id: 'izgara-servisi',
+      id: 'atalay-izgara-servisi',
       title: 'Atalay Izgara Servisi',
       description: 'Profesyonel izgara tamircisi ve onarım hizmetleri',
       details: 'Atalay izgara tamircisi hizmetleri ile izgara ekipmanlarının bakım, temizlik ve onarımında uzmanız. Hızlı ve güvenilir servis garantisi ile endüstriyel mutfaklarınızın kesintisiz çalışmasını sağlarız.',
@@ -29,7 +29,7 @@ export default function Services() {
       icon: '🍖',
     },
     {
-      id: 'fritoz-servisi',
+      id: 'atalay-fritoz-servisi',
       title: 'Atalay Fritöz Servisi',
       description: 'Profesyonel fritöz tamircisi ve bakım hizmetleri',
       details: 'Atalay fritöz tamircisi olarak fritöz ekipmanlarının güvenli ve hijyenik bakımını sağlıyoruz. Yağ değişimi, filtre temizliği, onarım ve teknik destek hizmetleri ile fritöz servis ihtiyaçlarınızı karşılarız.',
@@ -37,7 +37,7 @@ export default function Services() {
       icon: '🍟',
     },
     {
-      id: 'kuzine-servisi',
+      id: 'atalay-kuzine-servisi',
       title: 'Atalay Kuzine Servisi',
       description: 'Profesyonel kuzine tamircisi ve onarım hizmetleri',
       details: 'Atalay kuzine tamircisi hizmetleri ile endüstriyel kuzine ekipmanlarının tüm bakım ve onarım işlerini profesyonelce yapıyoruz. Teknik destek ve hızlı müdahale ile işletmenizin verimliliğini artırırız.',

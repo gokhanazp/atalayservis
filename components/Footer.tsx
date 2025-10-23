@@ -30,10 +30,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 text-red-600">Hizmetler</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="/hizmetler/ocak-servisi" className="hover:text-red-600 transition">Ocak Servisi</Link></li>
-              <li><Link href="/hizmetler/izgara-servisi" className="hover:text-red-600 transition">Izgara Servisi</Link></li>
-              <li><Link href="/hizmetler/fritoz-servisi" className="hover:text-red-600 transition">Fritöz Servisi</Link></li>
-              <li><Link href="/hizmetler/kuzine-servisi" className="hover:text-red-600 transition">Kuzine Servisi</Link></li>
+              <li><Link href="/hizmetler/atalay-ocak-servisi" className="hover:text-red-600 transition">Ocak Servisi</Link></li>
+              <li><Link href="/hizmetler/atalay-izgara-servisi" className="hover:text-red-600 transition">Izgara Servisi</Link></li>
+              <li><Link href="/hizmetler/atalay-fritoz-servisi" className="hover:text-red-600 transition">Fritöz Servisi</Link></li>
+              <li><Link href="/hizmetler/atalay-kuzine-servisi" className="hover:text-red-600 transition">Kuzine Servisi</Link></li>
             </ul>
           </div>
 
