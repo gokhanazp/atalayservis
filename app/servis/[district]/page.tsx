@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { notFound } from 'next/navigation';
+import { Flame, Flame as Grill, Zap, ChefHat } from 'lucide-react';
 
 // İstanbul ilçeleri - Yeni slug formatı (Türkçe karakterler kaldırıldı)
 const districts = [
@@ -147,7 +148,9 @@ export default async function DistrictService({ params }: { params: Promise<{ di
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Ocak Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
-              <div className="text-5xl mb-4">🔥</div>
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mb-4">
+                <Flame className="w-6 h-6 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Ocak Servisi</h3>
               <p className="text-gray-600 mb-4">
                 {districtName}'de Atalay ocak tamircisi hizmetleri. Profesyonel bakım, onarım, temizlik ve teknik destek.
@@ -165,7 +168,9 @@ export default async function DistrictService({ params }: { params: Promise<{ di
 
             {/* Izgara Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
-              <div className="text-5xl mb-4">🍖</div>
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mb-4">
+                <Grill className="w-6 h-6 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Izgara Servisi</h3>
               <p className="text-gray-600 mb-4">
                 {districtName}'de Atalay ızgara tamircisi hizmetleri. Profesyonel temizlik, bakım, onarım ve hijyen.
@@ -183,7 +188,9 @@ export default async function DistrictService({ params }: { params: Promise<{ di
 
             {/* Fritöz Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
-              <div className="text-5xl mb-4">🍟</div>
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mb-4">
+                <Zap className="w-6 h-6 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Fritöz Servisi</h3>
               <p className="text-gray-600 mb-4">
                 {districtName}'de Atalay fritöz tamircisi hizmetleri. Bakım, yağ değişimi, temizlik ve onarım.
@@ -201,7 +208,9 @@ export default async function DistrictService({ params }: { params: Promise<{ di
 
             {/* Kuzine Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
-              <div className="text-5xl mb-4">👨‍🍳</div>
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mb-4">
+                <ChefHat className="w-6 h-6 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Kuzine Servisi</h3>
               <p className="text-gray-600 mb-4">
                 {districtName}'de Atalay kuzine tamircisi hizmetleri. Bakım, onarım ve teknik destek.
