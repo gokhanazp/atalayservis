@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle2, DollarSign, Zap } from 'lucide-react';
+import { CheckCircle2, DollarSign, Zap, Wrench, Shield, Clock, Zap as Lightning } from 'lucide-react';
 import HeroSlider from '@/components/HeroSlider';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -259,7 +259,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Card 1 - Profesyonel Teknisyen */}
             <div className="group bg-gradient-to-br from-red-700 to-red-600 text-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
-              <div className="mb-6 text-5xl">👨‍🔧</div>
+              <div className="mb-6 w-16 h-16 bg-white/20 rounded-lg flex items-center justify-center group-hover:bg-white/30 transition">
+                <Wrench className="w-8 h-8" />
+              </div>
               <h3 className="text-xl font-bold mb-3">Profesyonel Teknisyen</h3>
               <p className="text-red-100">
                 Uzman ve deneyimli teknisyenlerimiz tüm markaların ekipmanlarını onarır.
@@ -268,7 +270,9 @@ export default function Home() {
 
             {/* Card 2 - Orijinal Parça */}
             <div className="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-gray-100">
-              <div className="mb-6 text-5xl">✅</div>
+              <div className="mb-6 w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center group-hover:bg-red-200 transition">
+                <Shield className="w-8 h-8 text-red-600" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Orijinal Parça</h3>
               <p className="text-gray-600">
                 Kullandığımız tüm yedek parçalar %100 orijinal ve garantilidir.
@@ -277,7 +281,9 @@ export default function Home() {
 
             {/* Card 3 - 24/7 Destek */}
             <div className="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-gray-100">
-              <div className="mb-6 text-5xl">⏰</div>
+              <div className="mb-6 w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center group-hover:bg-red-200 transition">
+                <Clock className="w-8 h-8 text-red-600" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">24/7 Destek</h3>
               <p className="text-gray-600">
                 Acil durumlarda günün her saati bizimle iletişime geçebilirsiniz.
@@ -286,7 +292,9 @@ export default function Home() {
 
             {/* Card 4 - Hızlı Müdahale */}
             <div className="group bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 border-2 border-gray-100">
-              <div className="mb-6 text-5xl">⚡</div>
+              <div className="mb-6 w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center group-hover:bg-red-200 transition">
+                <Lightning className="w-8 h-8 text-red-600" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Hızlı Müdahale</h3>
               <p className="text-gray-600">
                 Arızalara en kısa sürede müdahale ederek işletmenizi çalışır durumda tutarız.
