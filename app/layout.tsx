@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Atalay Servis | Endüstriyel Mutfak Ekipmanları Teknik Servis",
   description: "Atalay Servis - İstanbul'da endüstriyel mutfak ekipmanları (ocak, ızgara, fritöz, kuzine) teknik servis ve bakım hizmetleri. 24/7 hizmet.",
-  keywords: "atalay servis, ocak servisi, ızgara servisi, fritöz servisi, kuzine servisi, endüstriyel mutfak, İstanbul",
   authors: [{ name: "Atalay Servis" }],
   creator: "Atalay Servis",
   publisher: "Atalay Servis",

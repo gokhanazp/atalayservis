@@ -142,7 +142,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | Atalay Servis`,
     description: post.title,
-    keywords: `${post.category}, tamircisi, servis, Atalay`,
   };
 }
 

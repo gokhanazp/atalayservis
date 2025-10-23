@@ -59,7 +59,6 @@ export async function generateMetadata({ params }: { params: Promise<{ district:
   return {
     title: `${districtName} Atalay Servis | Profesyonel Tamircisi Hizmetleri`,
     description: `${districtName}'de Atalay Servis - Profesyonel tamircisi hizmetleri. Ocak, ızgara, fritöz ve kuzine servisi. 24/7 acil servis. Hemen iletişime geçin!`,
-    keywords: `${districtName} atalay servis, ${districtName} atalay tamircisi, ${districtName} ocak servisi, ${districtName} ızgara servisi, ${districtName} fritöz servisi, ${districtName} kuzine servisi, ${districtName} endüstriyel mutfak servisi`,
   };
 }
 

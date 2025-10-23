@@ -7,7 +7,6 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Hizmetlerimiz | Atalay Servis',
   description: 'Ocak, ızgara, fritöz ve kuzine servisi. İstanbul\'da profesyonel endüstriyel mutfak ekipmanları teknik destek.',
-  keywords: 'ocak servisi, ızgara servisi, fritöz servisi, kuzine servisi, İstanbul',
 };
 
 export default function Services() {

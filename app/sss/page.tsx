@@ -7,7 +7,6 @@ import FAQClient from './faq-client';
 export const metadata: Metadata = {
   title: 'Sık Sorulan Sorular (SSS) | Atalay Servis',
   description: 'Atalay Servis hakkında sık sorulan sorular ve cevapları. Servis hizmetleri, fiyatlandırma, garanti ve daha fazlası.',
-  keywords: 'sss, sık sorulan sorular, atalay servis, hizmetler, fiyat, garanti',
 };
 
 export default function FAQ() {

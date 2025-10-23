@@ -8,7 +8,6 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Atalay Servis | İstanbul Endüstriyel Mutfak Ekipmanları Teknik Servis',
   description: 'Atalay Servis - İstanbul\'da ocak, ızgara, fritöz ve kuzine servisi. 24/7 profesyonel teknik destek ve bakım hizmetleri.',
-  keywords: 'atalay servis, ocak servisi, ızgara servisi, fritöz servisi, kuzine servisi, İstanbul',
   openGraph: {
     title: 'Atalay Servis | İstanbul Endüstriyel Mutfak Ekipmanları Teknik Servis',
     description: 'İstanbul\'da ocak, ızgara, fritöz ve kuzine servisi. 24/7 profesyonel teknik destek.',
