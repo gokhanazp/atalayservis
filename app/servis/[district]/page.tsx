@@ -50,11 +50,11 @@ function formatDistrictName(slug: string): string {
 export async function generateMetadata({ params }: { params: Promise<{ district: string }> }): Promise<Metadata> {
   const { district } = await params;
   const districtName = formatDistrictName(district);
-  
+
   return {
-    title: `${districtName} Servis | Atalay Servis`,
-    description: `${districtName}'de endüstriyel mutfak ekipmanları servis hizmetleri. Ocak, ızgara, fritöz ve kuzine servisi.`,
-    keywords: `${districtName} servis, ${districtName} ocak servisi, ${districtName} ızgara servisi, ${districtName} fritöz servisi`,
+    title: `${districtName} Atalay Servis | Profesyonel Tamircisi Hizmetleri`,
+    description: `${districtName}'de Atalay Servis - Profesyonel tamircisi hizmetleri. Ocak, ızgara, fritöz ve kuzine servisi. 24/7 acil servis. Hemen iletişime geçin!`,
+    keywords: `${districtName} atalay servis, ${districtName} atalay tamircisi, ${districtName} ocak servisi, ${districtName} ızgara servisi, ${districtName} fritöz servisi, ${districtName} kuzine servisi, ${districtName} endüstriyel mutfak servisi`,
   };
 }
 
@@ -75,18 +75,33 @@ export default async function DistrictService({ params }: { params: Promise<{ di
 
   return (
     <div className="min-h-screen bg-white pb-24 md:pb-0">
+      <style>{`
+        @keyframes zoomIn {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.05);
+          }
+        }
+        .hero-zoom {
+          animation: zoomIn 3s ease-out forwards;
+        }
+      `}</style>
+
       {/* Header */}
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-r from-red-700 to-red-600 text-white py-20">
-        <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">{districtName} Atalay Servis</h1>
+      <section className="relative bg-gradient-to-r from-red-700 to-red-600 text-white py-20 overflow-hidden">
+        <div className="absolute inset-0 hero-zoom opacity-20" style={{backgroundImage: 'url(/img/slider-05.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
+        <div className="relative max-w-6xl mx-auto px-4">
+          <h1 className="text-5xl font-bold mb-4">{districtName} Atalay Servis - Profesyonel Tamircisi</h1>
           <p className="text-2xl mb-6 text-red-100">
-            {districtName}'de Profesyonel Endüstriyel Mutfak Ekipmanları Servis Hizmetleri
+            {districtName}'de Atalay Tamircisi Hizmetleri - Endüstriyel Mutfak Ekipmanları Servis
           </p>
           <p className="text-lg text-red-50 max-w-2xl">
-            Atalay ocak, ızgara, fritöz ve kuzine ekipmanlarının bakım, onarım ve teknik destek hizmetlerinde uzmanız. 24/7 acil servis hizmetleri sunuyoruz.
+            {districtName}'de Atalay Servis olarak, Atalay ocak, ızgara, fritöz ve kuzine ekipmanlarının bakım, onarım ve teknik destek hizmetlerinde uzmanız. Profesyonel tamircisi ekibimiz 24/7 acil servis hizmetleri sunmaktadır.
           </p>
         </div>
       </section>
@@ -94,24 +109,24 @@ export default async function DistrictService({ params }: { params: Promise<{ di
       {/* Services */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-4 text-gray-900">{districtName}'de Sunduğumuz Hizmetler</h2>
+          <h2 className="text-4xl font-bold mb-4 text-gray-900">{districtName}'de Atalay Servis Hizmetleri</h2>
           <p className="text-lg text-gray-600 mb-12">
-            Atalay Servis olarak {districtName}'de endüstriyel mutfak ekipmanlarının tüm servis ihtiyaçlarını karşılıyoruz.
+            {districtName}'de Atalay Servis olarak, profesyonel tamircisi ekibimiz endüstriyel mutfak ekipmanlarının tüm servis ihtiyaçlarını karşılamaktadır. Atalay ocak servisi, ızgara servisi, fritöz servisi ve kuzine servisi hizmetleri sunuyoruz.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Ocak Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
               <div className="text-5xl mb-4">🔥</div>
-              <h3 className="text-2xl font-bold mb-3 text-red-700">Ocak Servisi</h3>
+              <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Ocak Servisi</h3>
               <p className="text-gray-600 mb-4">
-                {districtName}'de Atalay ocak bakım, onarım, temizlik ve teknik destek hizmetleri.
+                {districtName}'de Atalay ocak tamircisi hizmetleri. Profesyonel bakım, onarım, temizlik ve teknik destek.
               </p>
               <ul className="text-sm text-gray-600 space-y-2 mb-4">
-                <li>✓ Ocak tamircisi hizmetleri</li>
-                <li>✓ Periyodik bakım</li>
-                <li>✓ Acil onarım</li>
-                <li>✓ Yedek parça değişimi</li>
+                <li>✓ Atalay ocak tamircisi</li>
+                <li>✓ Periyodik bakım ve onarım</li>
+                <li>✓ 24/7 acil servis</li>
+                <li>✓ Orijinal yedek parça</li>
               </ul>
               <Link href="/hizmetler/ocak-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
@@ -121,15 +136,15 @@ export default async function DistrictService({ params }: { params: Promise<{ di
             {/* Izgara Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
               <div className="text-5xl mb-4">🍖</div>
-              <h3 className="text-2xl font-bold mb-3 text-red-700">Izgara Servisi</h3>
+              <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Izgara Servisi</h3>
               <p className="text-gray-600 mb-4">
-                {districtName}'de Atalay ızgara temizliği, bakım, onarım ve hijyen hizmetleri.
+                {districtName}'de Atalay ızgara tamircisi hizmetleri. Profesyonel temizlik, bakım, onarım ve hijyen.
               </p>
               <ul className="text-sm text-gray-600 space-y-2 mb-4">
-                <li>✓ Izgara tamircisi hizmetleri</li>
+                <li>✓ Atalay ızgara tamircisi</li>
                 <li>✓ Profesyonel temizlik</li>
-                <li>✓ Bakım ve onarım</li>
-                <li>✓ Yedek parça tedariki</li>
+                <li>✓ Bakım ve onarım hizmetleri</li>
+                <li>✓ Orijinal yedek parça</li>
               </ul>
               <Link href="/hizmetler/izgara-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
@@ -139,15 +154,15 @@ export default async function DistrictService({ params }: { params: Promise<{ di
             {/* Fritöz Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
               <div className="text-5xl mb-4">🍟</div>
-              <h3 className="text-2xl font-bold mb-3 text-red-700">Fritöz Servisi</h3>
+              <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Fritöz Servisi</h3>
               <p className="text-gray-600 mb-4">
-                {districtName}'de Atalay fritöz bakım, yağ değişimi, temizlik ve onarım hizmetleri.
+                {districtName}'de Atalay fritöz tamircisi hizmetleri. Bakım, yağ değişimi, temizlik ve onarım.
               </p>
               <ul className="text-sm text-gray-600 space-y-2 mb-4">
-                <li>✓ Fritöz tamircisi hizmetleri</li>
+                <li>✓ Atalay fritöz tamircisi</li>
                 <li>✓ Yağ değişimi ve filtreleme</li>
                 <li>✓ Güvenlik kontrolleri</li>
-                <li>✓ Acil servis</li>
+                <li>✓ 24/7 acil servis</li>
               </ul>
               <Link href="/hizmetler/fritoz-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
@@ -157,15 +172,15 @@ export default async function DistrictService({ params }: { params: Promise<{ di
             {/* Kuzine Servisi */}
             <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg hover:shadow-xl transition border-2 border-red-200">
               <div className="text-5xl mb-4">👨‍🍳</div>
-              <h3 className="text-2xl font-bold mb-3 text-red-700">Kuzine Servisi</h3>
+              <h3 className="text-2xl font-bold mb-3 text-red-700">{districtName} Kuzine Servisi</h3>
               <p className="text-gray-600 mb-4">
-                {districtName}'de Atalay kuzine ekipmanları bakım, onarım ve teknik destek hizmetleri.
+                {districtName}'de Atalay kuzine tamircisi hizmetleri. Bakım, onarım ve teknik destek.
               </p>
               <ul className="text-sm text-gray-600 space-y-2 mb-4">
-                <li>✓ Kuzine tamircisi hizmetleri</li>
+                <li>✓ Atalay kuzine tamircisi</li>
                 <li>✓ Tüm ekipman bakımı</li>
                 <li>✓ Onarım ve iyileştirme</li>
-                <li>✓ 24/7 destek</li>
+                <li>✓ 24/7 profesyonel destek</li>
               </ul>
               <Link href="/hizmetler/kuzine-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
@@ -225,8 +240,8 @@ export default async function DistrictService({ params }: { params: Promise<{ di
       {/* CTA */}
       <section className="bg-gradient-to-r from-red-700 to-red-600 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">{districtName}'de Hizmet Almak İstiyorsanız</h2>
-          <p className="text-lg mb-6 text-red-100">Profesyonel tamircisi ekibimiz her zaman hazır</p>
+          <h2 className="text-3xl font-bold mb-4">{districtName}'de Atalay Servis Hizmetleri Almak İstiyorsanız</h2>
+          <p className="text-lg mb-6 text-red-100">Profesyonel tamircisi ekibimiz 24/7 hazır. Atalay Servis ile iletişime geçin!</p>
           <Link
             href="/iletisim"
             className="bg-white text-red-700 hover:bg-red-50 px-8 py-3 rounded-lg font-bold inline-block transition shadow-lg"

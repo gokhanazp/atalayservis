@@ -31,8 +31,22 @@ export default function HeroSlider() {
 
   return (
     <section className="relative h-64 sm:h-80 md:h-96 lg:h-screen overflow-hidden">
+      <style>{`
+        @keyframes zoomIn {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.1);
+          }
+        }
+        .hero-zoom {
+          animation: zoomIn 5s ease-out forwards;
+        }
+      `}</style>
+
       {/* Background Image */}
-      <div className="absolute inset-0">
+      <div key={currentSlide} className="absolute inset-0 hero-zoom">
         <Image
           src="/img/slider-05.jpg"
           alt="Hero Background"

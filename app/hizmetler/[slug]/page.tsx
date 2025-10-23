@@ -1019,6 +1019,20 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
 
   return (
     <div className="min-h-screen bg-gray-50 pb-24 md:pb-0">
+      <style>{`
+        @keyframes zoomIn {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.05);
+          }
+        }
+        .hero-zoom {
+          animation: zoomIn 3s ease-out forwards;
+        }
+      `}</style>
+
       {/* Header */}
       <Header />
 
@@ -1034,8 +1048,9 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
       </div>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-700 via-red-600 to-red-500 text-white py-20">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="relative bg-gradient-to-r from-red-700 via-red-600 to-red-500 text-white py-20 overflow-hidden">
+        <div className="absolute inset-0 hero-zoom opacity-20" style={{backgroundImage: 'url(/img/slider-05.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
+        <div className="relative max-w-6xl mx-auto px-4">
           <h1 className="text-5xl font-bold mb-6 leading-tight">{service.title}</h1>
           <p className="text-xl text-red-100 max-w-2xl">{service.description}</p>
         </div>

@@ -162,11 +162,26 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   return (
     <div className="min-h-screen bg-gray-50 pb-24 md:pb-0">
+      <style>{`
+        @keyframes zoomIn {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.05);
+          }
+        }
+        .hero-zoom {
+          animation: zoomIn 3s ease-out forwards;
+        }
+      `}</style>
+
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-red-700 via-red-600 to-red-500 text-white py-20">
-        <div className="max-w-5xl mx-auto px-4">
+      <section className="relative bg-gradient-to-r from-red-700 via-red-600 to-red-500 text-white py-20 overflow-hidden">
+        <div className="absolute inset-0 hero-zoom opacity-20" style={{backgroundImage: 'url(/img/slider-05.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
+        <div className="relative max-w-5xl mx-auto px-4">
           <div className="flex items-center gap-3 mb-6">
             <span className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold border border-white/30">
               {post.category}
@@ -187,7 +202,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <div className="max-w-4xl mx-auto px-4">
           {/* Main Content */}
           <article className="bg-white rounded-xl shadow-lg p-8 md:p-12 mb-12">
-            <div className="prose prose-lg max-w-none prose-headings:text-red-700 prose-a:text-red-600 prose-strong:text-gray-900">
+            <div className="prose prose-lg max-w-none text-gray-800 prose-headings:text-red-700 prose-a:text-red-600 prose-strong:text-gray-900">
               <div dangerouslySetInnerHTML={{ __html: post.content }} />
             </div>
           </article>
