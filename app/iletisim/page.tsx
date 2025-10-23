@@ -70,11 +70,8 @@ export default function Contact() {
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Telefon</h3>
               <p className="text-gray-600 mb-4">Hemen arayın, acil durumlarda 24/7 hizmetinizdeyiz</p>
               <div className="space-y-2">
-                <a href="tel:+902125671560" className="block text-red-600 hover:text-red-800 font-bold text-lg">
-                  0212 567 15 60
-                </a>
-                <a href="tel:+902123535360" className="block text-red-600 hover:text-red-800 font-bold text-lg">
-                  0212 353 53 60
+                <a href="tel:+905013001981" className="block text-red-600 hover:text-red-800 font-bold text-lg">
+                  +90 501 300 19 81
                 </a>
               </div>
             </div>
@@ -84,7 +81,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold mb-3 text-gray-900">WhatsApp</h3>
               <p className="text-gray-600 mb-4">Hızlı iletişim için WhatsApp'tan yazın</p>
               <a
-                href="https://wa.me/905494778038?text=Merhaba%20Atalay%20Servis"
+                href="https://wa.me/905013001981?text=Merhaba%20Atalay%20Servis"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition"
@@ -213,13 +210,13 @@ export default function Contact() {
                   </p>
                   <div className="flex gap-3">
                     <a
-                      href="tel:+902125671560"
+                      href="tel:+905013001981"
                       className="flex-1 bg-white text-red-600 hover:bg-gray-100 font-bold py-2 px-4 rounded-lg transition text-center"
                     >
                       Ara
                     </a>
                     <a
-                      href="https://wa.me/905494778038?text=Merhaba%20Atalay%20Servis"
+                      href="https://wa.me/905013001981?text=Merhaba%20Atalay%20Servis"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition text-center"

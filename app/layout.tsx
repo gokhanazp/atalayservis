@@ -74,7 +74,7 @@ export default function RootLayout({
     "name": "Atalay Servis",
     "image": "https://atalayservis.com/atalay-logo.png",
     "description": "İstanbul'da endüstriyel mutfak ekipmanları profesyonel servis hizmetleri. Ocak, ızgara, fritöz ve kuzine servisi.",
-    "telephone": "+902125671560",
+    "telephone": "+905013001981",
     "email": "info@atalayservis.com",
     "address": {
       "@type": "PostalAddress",
@@ -105,7 +105,7 @@ export default function RootLayout({
     "url": "https://atalayservis.com",
     "logo": "https://atalayservis.com/atalay-logo.png",
     "description": "İstanbul'da endüstriyel mutfak ekipmanları profesyonel servis hizmetleri",
-    "telephone": "+902125671560",
+    "telephone": "+905013001981",
     "email": "info@atalayservis.com",
     "sameAs": [
       "https://www.facebook.com/atalayservis",

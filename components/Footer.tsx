@@ -55,7 +55,7 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <span className="text-red-600 mt-1">📞</span>
                 <div>
-                  <p className="font-semibold text-white">0212 567 15 60</p>
+                  <p className="font-semibold text-white">+90 501 300 19 81</p>
                   <p className="text-xs">24/7 Hizmet</p>
                 </div>
               </li>

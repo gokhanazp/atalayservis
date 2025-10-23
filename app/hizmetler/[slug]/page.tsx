@@ -1026,7 +1026,7 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
     "provider": {
       "@type": "LocalBusiness",
       "name": "Atalay Servis",
-      "telephone": "+902125671560",
+      "telephone": "+905013001981",
       "url": "https://atalayservis.com"
     },
     "areaServed": {
