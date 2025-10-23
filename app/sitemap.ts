@@ -4,10 +4,12 @@ import { MetadataRoute } from 'next';
 const districts = [
   'adalar', 'arnavutköy', 'ataşehir', 'avcılar', 'bağcılar',
   'bahçelievler', 'bakırköy', 'başakşehir', 'bayrampaşa', 'beşiktaş',
-  'beylikdüzü', 'beyoğlu', 'büyükçekmece', 'çatalca', 'çekmeköy',
-  'esenler', 'esenyurt', 'eyüpsultan', 'fatih', 'gaziosmanpaşa',
-  'güngören', 'kağıthane', 'küçükçekmece', 'sarıyer', 'silivri',
-  'şişli', 'sultangazi', 'tuzla', 'ümraniye', 'üsküdar', 'zeytinburnu'
+  'beykoz', 'beylikdüzü', 'beyoğlu', 'büyükçekmece', 'çatalca',
+  'çekmeköy', 'esenler', 'esenyurt', 'eyüpsultan', 'fatih',
+  'gaziosmanpaşa', 'güngören', 'kadıköy', 'kağıthane', 'kartal',
+  'küçükçekmece', 'maltepe', 'pendik', 'sarıyer', 'şile',
+  'silivri', 'şişli', 'sultangazi', 'taksim', 'tuzla',
+  'ümraniye', 'üsküdar', 'zeytinburnu'
 ];
 
 // Blog yazıları
