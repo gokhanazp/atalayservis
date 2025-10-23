@@ -156,7 +156,7 @@ Tarayıcıda açın: http://localhost:3000
 ## 📞 İletişim
 
 **Atalay Servis**
-- Telefon: 0212 567 15 60
+- Telefon: +90 501 300 19 81
 - E-mail: info@atalayservis.com
 - Adres: Kasımpaşa, İstanbul
 

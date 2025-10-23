@@ -419,7 +419,7 @@ export default function Home() {
               Atalay Servis ile iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:
             </p>
             <ul className="list-disc list-inside space-y-2">
-              <li><strong>Telefon:</strong> 0212 567 15 60</li>
+              <li><strong>Telefon:</strong> +90 501 300 19 81</li>
               <li><strong>E-mail:</strong> info@atalayservis.com</li>
             </ul>
 

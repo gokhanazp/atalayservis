@@ -15,7 +15,7 @@ Schema Markup ile:
   "@type": "LocalBusiness",
   "name": "Atalay Servis",
   "description": "İstanbul'da endüstriyel mutfak ekipmanları servis",
-  "telephone": "+902125671560"
+  "telephone": "+905013001981"
 }
 ```
 
@@ -114,7 +114,7 @@ Google, ikinci versiyonu daha iyi anlıyor!
   "name": "Atalay Servis",
   "image": "https://atalayservis.com/atalay-logo.png",
   "description": "İstanbul'da endüstriyel mutfak ekipmanları profesyonel servis hizmetleri",
-  "telephone": "+902125671560",
+  "telephone": "+905013001981",
   "email": "info@atalayservis.com",
   "address": {
     "@type": "PostalAddress",
@@ -168,7 +168,7 @@ Google, ikinci versiyonu daha iyi anlıyor!
   "url": "https://atalayservis.com",
   "logo": "https://atalayservis.com/atalay-logo.png",
   "description": "İstanbul'da endüstriyel mutfak ekipmanları profesyonel servis",
-  "telephone": "+902125671560",
+  "telephone": "+905013001981",
   "email": "info@atalayservis.com",
   "sameAs": [
     "https://www.facebook.com/atalayservis",

@@ -165,5 +165,5 @@ npm start
 
 Sorularınız için:
 - E-mail: info@atalayservis.com
-- Telefon: 0212 567 15 60
+- Telefon: +90 501 300 19 81
 

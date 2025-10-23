@@ -86,7 +86,7 @@ Tüm sayfalarda kullanılacak merkezi Footer bileşeni oluşturuldu.
 - İletişim
 
 #### İletişim Bilgileri:
-- 📞 0212 567 15 60 (24/7 Hizmet)
+- 📞 +90 501 300 19 81 (24/7 Hizmet)
 - 📧 info@atalayservis.com (E-mail Gönder)
 - 📍 Kasımpaşa, İstanbul (Hizmet Alanı: Tüm İstanbul)
 

@@ -75,7 +75,7 @@ url: "https://yourdomain.com"
 
 ```typescript
 // Telefon
-<a href="tel:+902125671560">0212 567 15 60</a>
+<a href="tel:+905013001981">+90 501 300 19 81</a>
 
 // E-mail
 <a href="mailto:info@atalayservis.com">info@atalayservis.com</a>
