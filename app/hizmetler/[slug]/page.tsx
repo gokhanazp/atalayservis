@@ -1017,6 +1017,26 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
     notFound();
   }
 
+  // Service Schema
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": service.title,
+    "description": service.description,
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Atalay Servis",
+      "telephone": "+902125671560",
+      "url": "https://atalayservis.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "İstanbul"
+    },
+    "priceRange": "₺₺",
+    "serviceType": "Repair"
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 pb-24 md:pb-0">
       <style>{`
@@ -1032,6 +1052,12 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
           animation: zoomIn 3s ease-out forwards;
         }
       `}</style>
+
+      {/* Schema Markup - Service */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
 
       {/* Header */}
       <Header />

@@ -11,6 +11,62 @@ export const metadata: Metadata = {
 };
 
 export default function FAQ() {
+  // FAQPage Schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Atalay Servis kaç saat hizmet veriyor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Atalay Servis olarak 24/7 hizmet veriyoruz. Hafta içi, hafta sonu ve tatil günlerinde acil servis taleplerini karşılamak için her zaman hazırız."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hangi markaların ekipmanlarına hizmet veriyorsunuz?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tüm markaların endüstriyel mutfak ekipmanlarına hizmet veriyoruz. Ocak, ızgara, fritöz, kuzine ve diğer profesyonel mutfak ekipmanlarının bakım, onarım ve teknik destek hizmetlerini sunuyoruz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Servis maliyeti ne kadar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Servis maliyeti, ekipmanın türü, arızanın çeşidi ve gerekli parçalara göre değişir. Ücretsiz arıza teşhisi yapıyoruz ve tamir öncesinde müşteriye fiyat teklifi sunuyoruz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "İstanbul'un hangi bölgelerine hizmet veriyorsunuz?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "İstanbul'un tüm ilçelerine hizmet veriyoruz. Besiktaş, Kadıköy, Üsküdar, Şişli, Beyoğlu, Fatih, Bakırköy ve diğer tüm ilçelerde profesyonel servis hizmetleri sunuyoruz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Servis sonrası garanti veriyor musunuz?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evet, yapılan tüm tamirlara garanti veriyoruz. Değiştirilen parçalara 6 ay, yapılan işçiliğe 3 ay garanti sunuyoruz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Düzenli bakım hizmetleri sunuyor musunuz?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evet, düzenli bakım ve preventif bakım hizmetleri sunuyoruz. Aylık, üç aylık veya yıllık bakım paketleri ile ekipmanlarınızın uzun ömürlü ve verimli çalışmasını sağlıyoruz."
+        }
+      }
+    ]
+  };
+
   const faqs = [
     {
       category: 'Genel Sorular',
@@ -114,6 +170,12 @@ export default function FAQ() {
           animation: zoomIn 3s ease-out forwards;
         }
       `}</style>
+
+      {/* Schema Markup - FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
 
       {/* Header */}
       <Header />

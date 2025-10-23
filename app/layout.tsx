@@ -67,6 +67,52 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // LocalBusiness Schema
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Atalay Servis",
+    "image": "https://atalayservis.com/atalay-logo.png",
+    "description": "İstanbul'da endüstriyel mutfak ekipmanları profesyonel servis hizmetleri. Ocak, ızgara, fritöz ve kuzine servisi.",
+    "telephone": "+902125671560",
+    "email": "info@atalayservis.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "İstanbul",
+      "addressCountry": "TR"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "İstanbul"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://www.facebook.com/atalayservis",
+      "https://www.instagram.com/atalayservis"
+    ]
+  };
+
+  // Organization Schema
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Atalay Servis",
+    "url": "https://atalayservis.com",
+    "logo": "https://atalayservis.com/atalay-logo.png",
+    "description": "İstanbul'da endüstriyel mutfak ekipmanları profesyonel servis hizmetleri",
+    "telephone": "+902125671560",
+    "email": "info@atalayservis.com",
+    "sameAs": [
+      "https://www.facebook.com/atalayservis",
+      "https://www.instagram.com/atalayservis"
+    ]
+  };
+
   return (
     <html lang="tr">
       <head>
@@ -80,6 +126,18 @@ export default function RootLayout({
         {/* Preconnect */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+
+        {/* Schema Markup - LocalBusiness */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+
+        {/* Schema Markup - Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

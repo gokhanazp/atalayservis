@@ -73,6 +73,26 @@ export default async function DistrictService({ params }: { params: Promise<{ di
 
   const districtName = formatDistrictName(district);
 
+  // Service Schema for District
+  const districtServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `${districtName} Atalay Servis`,
+    "description": `${districtName}'de Atalay Servis - Profesyonel tamircisi hizmetleri. Ocak, ızgara, fritöz ve kuzine servisi.`,
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Atalay Servis",
+      "telephone": "+902125671560",
+      "url": "https://atalayservis.com"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": districtName
+    },
+    "priceRange": "₺₺",
+    "serviceType": "Repair"
+  };
+
   return (
     <div className="min-h-screen bg-white pb-24 md:pb-0">
       <style>{`
@@ -88,6 +108,12 @@ export default async function DistrictService({ params }: { params: Promise<{ di
           animation: zoomIn 3s ease-out forwards;
         }
       `}</style>
+
+      {/* Schema Markup - District Service */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(districtServiceSchema) }}
+      />
 
       {/* Header */}
       <Header />

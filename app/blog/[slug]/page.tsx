@@ -160,6 +160,28 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     notFound();
   }
 
+  // BlogPosting Schema
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": "Profesyonel tamircisi hizmetleri hakkında detaylı bilgi ve ipuçları",
+    "datePublished": post.date,
+    "dateModified": post.date,
+    "author": {
+      "@type": "Organization",
+      "name": "Atalay Servis"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Atalay Servis",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://atalayservis.com/atalay-logo.png"
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 pb-24 md:pb-0">
       <style>{`
@@ -175,6 +197,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           animation: zoomIn 3s ease-out forwards;
         }
       `}</style>
+
+      {/* Schema Markup - BlogPosting */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
 
       <Header />
 
