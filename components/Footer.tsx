@@ -72,11 +72,8 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-800 pt-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400">
+          <div className="text-sm text-gray-400">
             <p>&copy; 2024 Atalay Servis. Tüm hakları saklıdır.</p>
-            <p className="md:text-right">
-              Tasarım ve Geliştirme: <span className="text-red-600 font-semibold">Atalay Servis</span>
-            </p>
           </div>
         </div>
       </div>
