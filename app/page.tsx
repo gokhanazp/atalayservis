@@ -122,136 +122,132 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Atalay Ocak Servisi */}
-            <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
-              {/* Image Background */}
-              <div className="relative w-full h-full overflow-hidden bg-gray-800">
-                <Image
-                  src="/img/atalay-gazli-ocak-4-lu-set-ustu.webp"
-                  alt="Atalay Ocak Servisi - Profesyonel Ocak Tamircisi"
-                  width={500}
-                  height={400}
-                  className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
-                />
-                {/* Dark Overlay - Minimal */}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
-              </div>
-
-              {/* Content - Bottom Badge Style */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">🔥</div>
-                  <h3 className="text-2xl font-bold text-white">Ocak Servisi</h3>
+            <Link href="/hizmetler/ocak-servisi">
+              <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
+                {/* Image Background */}
+                <div className="relative w-full h-full overflow-hidden bg-gray-800">
+                  <Image
+                    src="/img/atalay-gazli-ocak-4-lu-set-ustu.webp"
+                    alt="Atalay Ocak Servisi - Profesyonel Ocak Tamircisi"
+                    width={500}
+                    height={400}
+                    className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                  />
+                  {/* Dark Overlay - Minimal */}
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
                 </div>
-                <p className="text-gray-200 text-sm mb-4 line-clamp-2">
-                  Profesyonel ocak tamircisi hizmetleri. Bakım, onarım ve teknik destek.
-                </p>
-                <Link
-                  href="/hizmetler/ocak-servisi"
-                  className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link"
-                >
-                  Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
-                </Link>
+
+                {/* Content - Bottom Badge Style */}
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">🔥</div>
+                    <h3 className="text-2xl font-bold text-white">Ocak Servisi</h3>
+                  </div>
+                  <p className="text-gray-200 text-sm mb-4 line-clamp-2">
+                    Profesyonel ocak tamircisi hizmetleri. Bakım, onarım ve teknik destek.
+                  </p>
+                  <div className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link">
+                    Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
 
             {/* Atalay Izgara Servisi */}
-            <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
-              {/* Image Background */}
-              <div className="relative w-full h-full overflow-hidden bg-gray-800">
-                <Image
-                  src="/img/atalay-izgara.jpeg"
-                  alt="Atalay Izgara Servisi - Profesyonel Izgara Tamircisi"
-                  width={500}
-                  height={400}
-                  className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
-                />
-                {/* Dark Overlay - Minimal */}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
-              </div>
-
-              {/* Content - Bottom Badge Style */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">🍖</div>
-                  <h3 className="text-2xl font-bold text-white">Izgara Servisi</h3>
+            <Link href="/hizmetler/izgara-servisi">
+              <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
+                {/* Image Background */}
+                <div className="relative w-full h-full overflow-hidden bg-gray-800">
+                  <Image
+                    src="/img/atalay-izgara.jpeg"
+                    alt="Atalay Izgara Servisi - Profesyonel Izgara Tamircisi"
+                    width={500}
+                    height={400}
+                    className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                  />
+                  {/* Dark Overlay - Minimal */}
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
                 </div>
-                <p className="text-gray-200 text-sm mb-4 line-clamp-2">
-                  Profesyonel izgara tamircisi hizmetleri. Temizlik, bakım ve onarım.
-                </p>
-                <Link
-                  href="/hizmetler/izgara-servisi"
-                  className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link"
-                >
-                  Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
-                </Link>
+
+                {/* Content - Bottom Badge Style */}
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">🍖</div>
+                    <h3 className="text-2xl font-bold text-white">Izgara Servisi</h3>
+                  </div>
+                  <p className="text-gray-200 text-sm mb-4 line-clamp-2">
+                    Profesyonel izgara tamircisi hizmetleri. Temizlik, bakım ve onarım.
+                  </p>
+                  <div className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link">
+                    Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
 
             {/* Atalay Fritöz Servisi */}
-            <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
-              {/* Image Background */}
-              <div className="relative w-full h-full overflow-hidden bg-gray-800">
-                <Image
-                  src="/img/fritoz-atalay-servisi.jpg"
-                  alt="Atalay Fritöz Servisi - Profesyonel Fritöz Tamircisi"
-                  width={500}
-                  height={400}
-                  className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
-                />
-                {/* Dark Overlay - Minimal */}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
-              </div>
-
-              {/* Content - Bottom Badge Style */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">🍟</div>
-                  <h3 className="text-2xl font-bold text-white">Fritöz Servisi</h3>
+            <Link href="/hizmetler/fritoz-servisi">
+              <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
+                {/* Image Background */}
+                <div className="relative w-full h-full overflow-hidden bg-gray-800">
+                  <Image
+                    src="/img/fritoz-atalay-servisi.jpg"
+                    alt="Atalay Fritöz Servisi - Profesyonel Fritöz Tamircisi"
+                    width={500}
+                    height={400}
+                    className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                  />
+                  {/* Dark Overlay - Minimal */}
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
                 </div>
-                <p className="text-gray-200 text-sm mb-4 line-clamp-2">
-                  Profesyonel fritöz tamircisi hizmetleri. Bakım, yağ değişimi ve onarım.
-                </p>
-                <Link
-                  href="/hizmetler/fritoz-servisi"
-                  className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link"
-                >
-                  Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
-                </Link>
+
+                {/* Content - Bottom Badge Style */}
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">🍟</div>
+                    <h3 className="text-2xl font-bold text-white">Fritöz Servisi</h3>
+                  </div>
+                  <p className="text-gray-200 text-sm mb-4 line-clamp-2">
+                    Profesyonel fritöz tamircisi hizmetleri. Bakım, yağ değişimi ve onarım.
+                  </p>
+                  <div className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link">
+                    Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
 
             {/* Atalay Kuzine Servisi */}
-            <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
-              {/* Image Background */}
-              <div className="relative w-full h-full overflow-hidden bg-gray-800">
-                <Image
-                  src="/img/kuzine-atalay-servis.jpg"
-                  alt="Atalay Kuzine Servisi - Profesyonel Kuzine Tamircisi"
-                  width={500}
-                  height={400}
-                  className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
-                />
-                {/* Dark Overlay - Minimal */}
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
-              </div>
-
-              {/* Content - Bottom Badge Style */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">👨‍🍳</div>
-                  <h3 className="text-2xl font-bold text-white">Kuzine Servisi</h3>
+            <Link href="/hizmetler/kuzine-servisi">
+              <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
+                {/* Image Background */}
+                <div className="relative w-full h-full overflow-hidden bg-gray-800">
+                  <Image
+                    src="/img/kuzine-atalay-servis.jpg"
+                    alt="Atalay Kuzine Servisi - Profesyonel Kuzine Tamircisi"
+                    width={500}
+                    height={400}
+                    className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                  />
+                  {/* Dark Overlay - Minimal */}
+                  <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
                 </div>
-                <p className="text-gray-200 text-sm mb-4 line-clamp-2">
-                  Profesyonel kuzine tamircisi hizmetleri. Bakım, onarım ve teknik destek.
-                </p>
-                <Link
-                  href="/hizmetler/kuzine-servisi"
-                  className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link"
-                >
-                  Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
-                </Link>
+
+                {/* Content - Bottom Badge Style */}
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-6 translate-y-12 group-hover:translate-y-0 transition-all duration-500">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl font-bold">👨‍🍳</div>
+                    <h3 className="text-2xl font-bold text-white">Kuzine Servisi</h3>
+                  </div>
+                  <p className="text-gray-200 text-sm mb-4 line-clamp-2">
+                    Profesyonel kuzine tamircisi hizmetleri. Bakım, onarım ve teknik destek.
+                  </p>
+                  <div className="inline-flex items-center gap-2 text-red-400 hover:text-red-300 font-bold transition group/link">
+                    Detaylı Bilgi <span className="group-hover/link:translate-x-1 transition">→</span>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

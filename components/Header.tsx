@@ -76,12 +76,6 @@ export default function Header() {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
             </li>
-            <li>
-              <Link href="/iletisim" className="px-5 py-3 text-red-50 hover:text-white transition font-bold text-base tracking-wide relative group">
-                İletişim
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
-              </Link>
-            </li>
 
             {/* CTA Button */}
             <li>
