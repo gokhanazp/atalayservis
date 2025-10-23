@@ -76,6 +76,12 @@ export default function Header() {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
               </Link>
             </li>
+            <li>
+              <Link href="/sss" className="px-5 py-3 text-red-50 hover:text-white transition font-bold text-base tracking-wide relative group">
+                SSS
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white group-hover:w-full transition-all duration-300"></span>
+              </Link>
+            </li>
 
             {/* CTA Button */}
             <li>
@@ -127,6 +133,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
+              </Link>
+              <Link
+                href="/sss"
+                className="block py-3 px-4 text-red-50 hover:text-white hover:bg-red-600 rounded transition font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                SSS
               </Link>
               <Link
                 href="/iletisim"
