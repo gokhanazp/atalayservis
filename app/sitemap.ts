@@ -2,13 +2,12 @@ import { MetadataRoute } from 'next';
 
 // İstanbul ilçeleri listesi
 const districts = [
-  'adalar', 'avcılar', 'bahçelievler', 'bakırköy', 'başakşehir',
-  'bayrampaşa', 'beşiktaş', 'beykoz', 'beyoğlu', 'büyükçekmece',
-  'çatalca', 'çekmeköy', 'esenler', 'esenyurt', 'eyüpsultan',
-  'fatih', 'gaziosmanpaşa', 'güngören', 'kadıköy', 'kağıthane',
-  'kartal', 'küçükçekmece', 'maltepe',
-  'pendik', 'sarıyer', 'şile', 'şişli', 'taksim',
-  'tuzla', 'ümraniye', 'üsküdar', 'zeytinburnu'
+  'adalar', 'arnavutköy', 'ataşehir', 'avcılar', 'bağcılar',
+  'bahçelievler', 'bakırköy', 'başakşehir', 'bayrampaşa', 'beşiktaş',
+  'beylikdüzü', 'beyoğlu', 'büyükçekmece', 'çatalca', 'çekmeköy',
+  'esenler', 'esenyurt', 'eyüpsultan', 'fatih', 'gaziosmanpaşa',
+  'güngören', 'kağıthane', 'küçükçekmece', 'sarıyer', 'silivri',
+  'şişli', 'sultangazi', 'tuzla', 'ümraniye', 'üsküdar', 'zeytinburnu'
 ];
 
 // Blog yazıları
