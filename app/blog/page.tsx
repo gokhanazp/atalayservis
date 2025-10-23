@@ -96,7 +96,11 @@ export default function Blog() {
                       {new Date(post.date).toLocaleDateString('tr-TR')}
                     </time>
                   </div>
-                  <h2 className="text-2xl font-bold mb-3 text-red-700">{post.title}</h2>
+                  <Link href={`/blog/${post.slug}`}>
+                    <h2 className="text-2xl font-bold mb-3 text-red-700 hover:text-red-800 transition cursor-pointer">
+                      {post.title}
+                    </h2>
+                  </Link>
                   <p className="text-gray-600 mb-4">{post.excerpt}</p>
                   <Link
                     href={`/blog/${post.slug}`}
