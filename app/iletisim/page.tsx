@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useState } from 'react';
+import { Phone, MessageCircle, Mail } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -66,7 +67,9 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
             {/* Quick Contact Cards */}
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
-              <div className="text-5xl mb-4">📞</div>
+              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mb-4">
+                <Phone className="w-8 h-8 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Telefon</h3>
               <p className="text-gray-600 mb-4">Hemen arayın, acil durumlarda 24/7 hizmetinizdeyiz</p>
               <div className="space-y-2">
@@ -77,7 +80,9 @@ export default function Contact() {
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
-              <div className="text-5xl mb-4">💬</div>
+              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mb-4">
+                <MessageCircle className="w-8 h-8 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">WhatsApp</h3>
               <p className="text-gray-600 mb-4">Hızlı iletişim için WhatsApp'tan yazın</p>
               <a
@@ -91,7 +96,9 @@ export default function Contact() {
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
-              <div className="text-5xl mb-4">📧</div>
+              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-4">
+                <Mail className="w-8 h-8 text-white" />
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">E-mail</h3>
               <p className="text-gray-600 mb-4">Detaylı bilgi için e-mail gönderin</p>
               <a href="mailto:info@atalayservis.com" className="inline-block text-red-600 hover:text-red-800 font-bold text-lg">

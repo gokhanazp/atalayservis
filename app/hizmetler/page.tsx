@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Flame, Flame as Grill, Zap, ChefHat } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Hizmetlerimiz | Atalay Servis',
@@ -17,7 +18,7 @@ export default function Services() {
       description: 'Profesyonel ocak tamircisi ve bakım hizmetleri',
       details: 'Atalay ocak tamircisi olarak tüm markaların ocaklarına profesyonel servis hizmetleri sunuyoruz. Arıza teşhisi, parça değişimi, bakım ve temizlik hizmetleri ile ocak ekipmanlarınızın uzun ömürlü kullanımını sağlarız.',
       image: '/img/atalay-gazli-ocak-4-lu-set-ustu.webp',
-      icon: '🔥',
+      icon: 'flame',
     },
     {
       id: 'atalay-izgara-servisi',
@@ -25,7 +26,7 @@ export default function Services() {
       description: 'Profesyonel izgara tamircisi ve onarım hizmetleri',
       details: 'Atalay izgara tamircisi hizmetleri ile izgara ekipmanlarının bakım, temizlik ve onarımında uzmanız. Hızlı ve güvenilir servis garantisi ile endüstriyel mutfaklarınızın kesintisiz çalışmasını sağlarız.',
       image: '/img/atalay-izgara.jpeg',
-      icon: '🍖',
+      icon: 'grill',
     },
     {
       id: 'atalay-fritoz-servisi',
@@ -33,7 +34,7 @@ export default function Services() {
       description: 'Profesyonel fritöz tamircisi ve bakım hizmetleri',
       details: 'Atalay fritöz tamircisi olarak fritöz ekipmanlarının güvenli ve hijyenik bakımını sağlıyoruz. Yağ değişimi, filtre temizliği, onarım ve teknik destek hizmetleri ile fritöz servis ihtiyaçlarınızı karşılarız.',
       image: '/img/fritoz-atalay-servisi.jpg',
-      icon: '🍟',
+      icon: 'zap',
     },
     {
       id: 'atalay-kuzine-servisi',
@@ -41,7 +42,7 @@ export default function Services() {
       description: 'Profesyonel kuzine tamircisi ve onarım hizmetleri',
       details: 'Atalay kuzine tamircisi hizmetleri ile endüstriyel kuzine ekipmanlarının tüm bakım ve onarım işlerini profesyonelce yapıyoruz. Teknik destek ve hızlı müdahale ile işletmenizin verimliliğini artırırız.',
       image: '/img/kuzine-atalay-servis.jpg',
-      icon: '👨‍🍳',
+      icon: 'chef',
     },
   ];
 
@@ -96,8 +97,11 @@ export default function Services() {
                   {/* Content - Bottom Badge Style */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/80 to-transparent p-8 translate-y-16 group-hover:translate-y-0 transition-all duration-500">
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white text-3xl font-bold flex-shrink-0">
-                        {service.icon}
+                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white flex-shrink-0">
+                        {service.icon === 'flame' && <Flame className="w-8 h-8" />}
+                        {service.icon === 'grill' && <Grill className="w-8 h-8" />}
+                        {service.icon === 'zap' && <Zap className="w-8 h-8" />}
+                        {service.icon === 'chef' && <ChefHat className="w-8 h-8" />}
                       </div>
                       <h2 className="text-3xl font-bold text-white">{service.title}</h2>
                     </div>
