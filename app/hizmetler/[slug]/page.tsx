@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { notFound } from 'next/navigation';
+import { CheckCircle2, Clock, DollarSign, Award, Zap, Wrench } from 'lucide-react';
 
 // Hizmet verileri
 const services: Record<string, any> = {
@@ -1172,8 +1173,8 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             <div className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="bg-gradient-to-br from-red-500 to-red-600 h-16 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300">
-                ⚡
+              <div className="bg-gradient-to-br from-red-500 to-red-600 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <Zap className="w-8 h-8 text-white" />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Hızlı Hizmet</h3>
@@ -1182,8 +1183,8 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
             </div>
 
             <div className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 h-16 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300">
-                👨‍🔧
+              <div className="bg-gradient-to-br from-blue-500 to-blue-600 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <Wrench className="w-8 h-8 text-white" />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Profesyonel Ekip</h3>
@@ -1192,8 +1193,8 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
             </div>
 
             <div className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="bg-gradient-to-br from-green-500 to-green-600 h-16 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300">
-                ✅
+              <div className="bg-gradient-to-br from-green-500 to-green-600 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <CheckCircle2 className="w-8 h-8 text-white" />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Garantili Hizmet</h3>
@@ -1202,8 +1203,8 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
             </div>
 
             <div className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="bg-gradient-to-br from-purple-500 to-purple-600 h-16 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform duration-300">
-                💰
+              <div className="bg-gradient-to-br from-purple-500 to-purple-600 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <DollarSign className="w-8 h-8 text-white" />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Uygun Fiyatlar</h3>
