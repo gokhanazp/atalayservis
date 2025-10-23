@@ -27,7 +27,6 @@ const districts = [
   { slug: 'kadikoy-atalay-servisi', name: 'Kadıköy' },
   { slug: 'kagithane-atalay-servisi', name: 'Kağıthane' },
   { slug: 'kartal-atalay-servisi', name: 'Kartal' },
-  { slug: 'kucaeli-atalay-servisi', name: 'Kucaeli' },
   { slug: 'kucukcekmece-atalay-servisi', name: 'Küçükçekmece' },
   { slug: 'maltepe-atalay-servisi', name: 'Maltepe' },
   { slug: 'pendik-atalay-servisi', name: 'Pendik' },

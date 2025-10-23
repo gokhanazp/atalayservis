@@ -6,7 +6,7 @@ const districts = [
   'bayrampaşa', 'beşiktaş', 'beykoz', 'beyoğlu', 'büyükçekmece',
   'çatalca', 'çekmeköy', 'esenler', 'esenyurt', 'eyüpsultan',
   'fatih', 'gaziosmanpaşa', 'güngören', 'kadıköy', 'kağıthane',
-  'kartal', 'kastamonu', 'kucaeli', 'küçükçekmece', 'maltepe',
+  'kartal', 'küçükçekmece', 'maltepe',
   'pendik', 'sarıyer', 'şile', 'şişli', 'taksim',
   'tuzla', 'ümraniye', 'üsküdar', 'zeytinburnu'
 ];
