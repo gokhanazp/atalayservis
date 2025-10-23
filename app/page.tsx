@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Atalay Ocak Servisi */}
-            <Link href="/hizmetler/ocak-servisi">
+            <Link href="/hizmetler/atalay-ocak-servisi">
               <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
                 {/* Image Background */}
                 <div className="relative w-full h-full overflow-hidden bg-gray-800">
@@ -154,7 +154,7 @@ export default function Home() {
             </Link>
 
             {/* Atalay Izgara Servisi */}
-            <Link href="/hizmetler/izgara-servisi">
+            <Link href="/hizmetler/atalay-izgara-servisi">
               <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
                 {/* Image Background */}
                 <div className="relative w-full h-full overflow-hidden bg-gray-800">
@@ -186,7 +186,7 @@ export default function Home() {
             </Link>
 
             {/* Atalay Fritöz Servisi */}
-            <Link href="/hizmetler/fritoz-servisi">
+            <Link href="/hizmetler/atalay-fritoz-servisi">
               <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
                 {/* Image Background */}
                 <div className="relative w-full h-full overflow-hidden bg-gray-800">
@@ -218,7 +218,7 @@ export default function Home() {
             </Link>
 
             {/* Atalay Kuzine Servisi */}
-            <Link href="/hizmetler/kuzine-servisi">
+            <Link href="/hizmetler/atalay-kuzine-servisi">
               <div className="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-2xl transition-all duration-500 h-96 cursor-pointer">
                 {/* Image Background */}
                 <div className="relative w-full h-full overflow-hidden bg-gray-800">
