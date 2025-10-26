@@ -161,7 +161,7 @@ export default async function DistrictService({ params }: { params: Promise<{ di
                 <li>✓ 24/7 acil servis</li>
                 <li>✓ Orijinal yedek parça</li>
               </ul>
-              <Link href="/hizmetler/ocak-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
+              <Link href="/hizmetler/atalay-ocak-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
               </Link>
             </div>
@@ -181,7 +181,7 @@ export default async function DistrictService({ params }: { params: Promise<{ di
                 <li>✓ Bakım ve onarım hizmetleri</li>
                 <li>✓ Orijinal yedek parça</li>
               </ul>
-              <Link href="/hizmetler/izgara-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
+              <Link href="/hizmetler/atalay-izgara-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
               </Link>
             </div>
@@ -201,7 +201,7 @@ export default async function DistrictService({ params }: { params: Promise<{ di
                 <li>✓ Güvenlik kontrolleri</li>
                 <li>✓ 24/7 acil servis</li>
               </ul>
-              <Link href="/hizmetler/fritoz-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
+              <Link href="/hizmetler/atalay-fritoz-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
               </Link>
             </div>
@@ -221,7 +221,7 @@ export default async function DistrictService({ params }: { params: Promise<{ di
                 <li>✓ Onarım ve iyileştirme</li>
                 <li>✓ 24/7 profesyonel destek</li>
               </ul>
-              <Link href="/hizmetler/kuzine-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
+              <Link href="/hizmetler/atalay-kuzine-servisi" className="text-red-600 hover:text-red-800 font-bold text-sm">
                 Detaylı Bilgi →
               </Link>
             </div>
