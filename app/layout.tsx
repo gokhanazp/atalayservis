@@ -32,13 +32,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://atalayservisi.com",
+    url: "https://www.atalayservisi.com",
     siteName: "Atalay Servis",
     title: "Atalay Servis | Endüstriyel Mutfak Ekipmanları Teknik Servis",
     description: "İstanbul'da endüstriyel mutfak ekipmanları teknik servis ve bakım hizmetleri",
     images: [
       {
-        url: "https://atalayservisi.com/atalay-logo.png",
+        url: "https://www.atalayservisi.com/atalay-logo.png",
         width: 1200,
         height: 630,
         alt: "Atalay Servis - Endüstriyel Mutfak Ekipmanları Teknik Servis",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Atalay Servis | Endüstriyel Mutfak Ekipmanları Teknik Servis",
     description: "İstanbul'da endüstriyel mutfak ekipmanları teknik servis ve bakım hizmetleri",
-    images: ["https://atalayservisi.com/atalay-logo.png"],
+    images: ["https://www.atalayservisi.com/atalay-logo.png"],
   },
   robots: {
     index: true,
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://atalayservisi.com",
+    canonical: "https://www.atalayservisi.com",
   },
   verification: {
     google: "6dPHb0o7aS1O35bcrNtVq56_x5_AMR44EdY-WUuaYAU",

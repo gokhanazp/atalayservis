@@ -8,7 +8,7 @@ Disallow: /*?*sort=
 Disallow: /*?*filter=
 
 # Sitemap konumu
-Sitemap: https://atalayservisi.com/sitemap.xml
+Sitemap: https://www.atalayservisi.com/sitemap.xml
 
 # Crawl delay (ms)
 Crawl-delay: 1

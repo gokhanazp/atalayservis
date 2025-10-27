@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // Production source maps
   productionBrowserSourceMaps: false,
-  // Redirects - www to non-www
+  // Redirects - non-www to www
   async redirects() {
     return [
       {
@@ -27,10 +27,10 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
-            value: 'www.atalayservisi.com',
+            value: 'atalayservisi.com',
           },
         ],
-        destination: 'https://atalayservisi.com/:path*',
+        destination: 'https://www.atalayservisi.com/:path*',
         permanent: true,
       },
     ];
