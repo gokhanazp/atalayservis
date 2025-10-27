@@ -13,11 +13,11 @@ export default function Header() {
       <div className="hidden md:block bg-gray-900 text-white py-3 text-sm">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center gap-4">
           <div className="flex gap-8 items-center">
-            <a href="tel:+905013001981" className="flex items-center gap-2 hover:text-red-400 transition group">
+            <a href="tel:+905336681981" className="flex items-center gap-2 hover:text-red-400 transition group">
               <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
               </svg>
-              <span className="font-light tracking-wide">+90 501 300 19 81</span>
+              <span className="font-light tracking-wide">+90 533 668 19 81</span>
             </a>
             <div className="w-px h-6 bg-gray-700"></div>
             <a href="mailto:info@atalayservis.com" className="flex items-center gap-2 hover:text-red-400 transition group">
@@ -28,7 +28,7 @@ export default function Header() {
             </a>
           </div>
           <a
-            href="https://wa.me/905013001981?text=Merhaba%20Atalay%20Servis"
+            href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-green-600 hover:bg-green-500 px-4 py-2 rounded transition font-semibold text-sm shadow-lg"
@@ -159,7 +159,7 @@ export default function Header() {
 
       {/* Mobile Fixed WhatsApp Button */}
       <a
-        href="https://wa.me/905013001981?text=Merhaba%20Atalay%20Servis"
+        href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
         target="_blank"
         rel="noopener noreferrer"
         className="md:hidden fixed bottom-0 left-0 right-0 bg-green-600 hover:bg-green-500 text-white py-4 px-4 flex items-center justify-center gap-3 font-semibold text-lg shadow-2xl z-40 transition"

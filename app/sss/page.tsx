@@ -148,7 +148,7 @@ export default function FAQ() {
         },
         {
           q: 'Bize nasıl ulaşabiliriz?',
-          a: 'Telefon: +90 501 300 19 81\nWhatsApp: +90 501 300 19 81\nEmail: info@atalayservis.com\nAdres: İstanbul, Türkiye\n\nHer zaman yanınızdayız!',
+          a: 'Telefon: +90 533 668 19 81\nWhatsApp: +90 533 668 19 81\nEmail: info@atalayservis.com\nAdres: İstanbul, Türkiye\n\nHer zaman yanınızdayız!',
         },
       ],
     },

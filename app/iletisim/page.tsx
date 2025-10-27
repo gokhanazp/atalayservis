@@ -73,8 +73,8 @@ export default function Contact() {
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Telefon</h3>
               <p className="text-gray-600 mb-4">Hemen arayın, acil durumlarda 24/7 hizmetinizdeyiz</p>
               <div className="space-y-2">
-                <a href="tel:+905013001981" className="block text-red-600 hover:text-red-800 font-bold text-lg">
-                  +90 501 300 19 81
+                <a href="tel:+905336681981" className="block text-red-600 hover:text-red-800 font-bold text-lg">
+                  +90 533 668 19 81
                 </a>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold mb-3 text-gray-900">WhatsApp</h3>
               <p className="text-gray-600 mb-4">Hızlı iletişim için WhatsApp'tan yazın</p>
               <a
-                href="https://wa.me/905013001981?text=Merhaba%20Atalay%20Servis"
+                href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition"

@@ -89,10 +89,10 @@ export default function Footer() {
               <h4 className="text-lg font-bold mb-6 text-white border-b-2 border-red-600 pb-2">İletişim</h4>
               <ul className="space-y-4">
                 <li>
-                  <a href="tel:+905013001981" className="flex items-center gap-2 text-gray-400 hover:text-red-600 transition">
+                  <a href="tel:+905336681981" className="flex items-center gap-2 text-gray-400 hover:text-red-600 transition">
                     <Phone className="w-5 h-5 text-red-600 flex-shrink-0" />
                     <div className="text-sm">
-                      <p className="font-semibold text-white">+90 501 300 19 81</p>
+                      <p className="font-semibold text-white">+90 533 668 19 81</p>
                       <p className="text-xs text-gray-500">24/7 Hizmet</p>
                     </div>
                   </a>
