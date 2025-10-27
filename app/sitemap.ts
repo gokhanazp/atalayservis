@@ -22,7 +22,7 @@ const blogPosts = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://atalayservis.com';
+  const baseUrl = 'https://www.atalayservisi.com';
 
   // Ana sayfalar
   const mainPages: MetadataRoute.Sitemap = [

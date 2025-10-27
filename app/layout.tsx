@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://atalayservis.com",
+    url: "https://www.atalayservisi.com",
     siteName: "Atalay Servis",
     title: "Atalay Servis | Endüstriyel Mutfak Ekipmanları Teknik Servis",
     description: "İstanbul'da endüstriyel mutfak ekipmanları teknik servis ve bakım hizmetleri",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://atalayservis.com",
+    canonical: "https://www.atalayservisi.com",
   },
   verification: {
     google: "6dPHb0o7aS1O35bcrNtVq56_x5_AMR44EdY-WUuaYAU",
