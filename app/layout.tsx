@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   creator: "Atalay Servis",
   publisher: "Atalay Servis",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/atalay-logo.png",
+    shortcut: "/atalay-logo.png",
+    apple: "/atalay-logo.png",
   },
   formatDetection: {
     email: false,
