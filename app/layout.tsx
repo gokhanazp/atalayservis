@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Atalay Servis" }],
   creator: "Atalay Servis",
   publisher: "Atalay Servis",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   formatDetection: {
     email: false,
     telephone: false,

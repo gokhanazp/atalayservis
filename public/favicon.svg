@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- Background -->
+  <rect width="192" height="192" fill="#DC2626" rx="40"/>
+  
+  <!-- Inner circle background -->
+  <circle cx="96" cy="96" r="75" fill="#FFFFFF"/>
+  
+  <!-- Wrench icon -->
+  <g transform="translate(96, 96)">
+    <!-- Wrench body -->
+    <path d="M -15 -5 L 20 -5 L 25 0 L 25 10 C 25 15 20 20 15 20 L -15 20 C -20 20 -25 15 -25 10 L -25 0 C -25 -5 -20 -10 -15 -10 Z" 
+          fill="none" stroke="#DC2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Wrench head (circular part) -->
+    <circle cx="20" cy="5" r="8" fill="none" stroke="#DC2626" stroke-width="3"/>
+    
+    <!-- Wrench handle -->
+    <path d="M -15 5 L -25 5" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Gear accent -->
+    <circle cx="0" cy="0" r="3" fill="#DC2626"/>
+  </g>
+</svg>
+
