@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   publisher: "Atalay Servis",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/atalay-logo.png", type: "image/png", sizes: "192x192" },
+      { url: "/favicon.ico?v=2", sizes: "any" },
+      { url: "/atalay-logo.png?v=2", type: "image/png", sizes: "192x192" },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/atalay-logo.png",
+    shortcut: "/favicon.ico?v=2",
+    apple: "/atalay-logo.png?v=2",
   },
   formatDetection: {
     email: false,
