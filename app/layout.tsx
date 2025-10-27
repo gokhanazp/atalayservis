@@ -20,8 +20,11 @@ export const metadata: Metadata = {
   creator: "Atalay Servis",
   publisher: "Atalay Servis",
   icons: {
-    icon: "/atalay-logo.png",
-    shortcut: "/atalay-logo.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/atalay-logo.png", type: "image/png", sizes: "192x192" },
+    ],
+    shortcut: "/favicon.ico",
     apple: "/atalay-logo.png",
   },
   formatDetection: {
