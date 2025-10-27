@@ -67,6 +67,9 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "6dPHb0o7aS1O35bcrNtVq56_x5_AMR44EdY-WUuaYAU",
+    // Bing verification kodu - Bing Webmaster Tools'tan alacaksınız
+    // Örnek: "msvalidate.01=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    // Bunu eklemek için Bing Webmaster Tools'ta meta tag verification seçin
   },
 };
 
