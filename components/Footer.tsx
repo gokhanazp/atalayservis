@@ -16,13 +16,13 @@ export default function Footer() {
             </div>
             <div className="flex gap-4">
               <a
-                href="tel:+905013001981"
+                href="tel:+905336681981"
                 className="bg-white text-red-600 px-8 py-3 rounded-lg font-bold hover:bg-red-50 transition transform hover:scale-105"
               >
                 📞 Hemen Ara
               </a>
               <a
-                href="https://wa.me/905013001981"
+                href="https://wa.me/905336681981"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/20 border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/30 transition"
