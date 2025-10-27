@@ -248,7 +248,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 İletişim Formu
               </Link>
               <a
-                href="https://wa.me/905494778038?text=Merhaba%20Atalay%20Servis"
+                href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white hover:bg-green-600 px-6 py-3 rounded-lg font-bold transition shadow-lg"
