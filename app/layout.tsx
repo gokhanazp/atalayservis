@@ -64,6 +64,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://atalayservis.com",
   },
+  verification: {
+    google: "6dPHb0o7aS1O35bcrNtVq56_x5_AMR44EdY-WUuaYAU",
+  },
 };
 
 export default function RootLayout({
