@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     description: "İstanbul'da endüstriyel mutfak ekipmanları teknik servis ve bakım hizmetleri",
     images: [
       {
-        url: "https://atalayservis.com/og-image.jpg",
+        url: "https://www.atalayservisi.com/atalay-logo.png",
         width: 1200,
         height: 630,
-        alt: "Atalay Servis",
+        alt: "Atalay Servis - Endüstriyel Mutfak Ekipmanları Teknik Servis",
       },
     ],
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Atalay Servis | Endüstriyel Mutfak Ekipmanları Teknik Servis",
     description: "İstanbul'da endüstriyel mutfak ekipmanları teknik servis ve bakım hizmetleri",
-    images: ["https://atalayservis.com/og-image.jpg"],
+    images: ["https://www.atalayservisi.com/atalay-logo.png"],
   },
   robots: {
     index: true,
