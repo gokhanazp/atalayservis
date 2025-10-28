@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Logo from './Logo';
 import { useState } from 'react';
+import { trackWhatsAppClick, trackPhoneClick, trackEmailClick } from '@/lib/analytics';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,14 +14,22 @@ export default function Header() {
       <div className="hidden md:block bg-gray-900 text-white py-3 text-sm">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center gap-4">
           <div className="flex gap-8 items-center">
-            <a href="tel:+905336681981" className="flex items-center gap-2 hover:text-red-400 transition group">
+            <a
+              href="tel:+905336681981"
+              onClick={() => trackPhoneClick('top_bar')}
+              className="flex items-center gap-2 hover:text-red-400 transition group"
+            >
               <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
               </svg>
               <span className="font-light tracking-wide">+90 533 668 19 81</span>
             </a>
             <div className="w-px h-6 bg-gray-700"></div>
-            <a href="mailto:info@atalayservis.com" className="flex items-center gap-2 hover:text-red-400 transition group">
+            <a
+              href="mailto:info@atalayservis.com"
+              onClick={() => trackEmailClick('top_bar')}
+              className="flex items-center gap-2 hover:text-red-400 transition group"
+            >
               <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
               </svg>
@@ -31,6 +40,7 @@ export default function Header() {
             href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackWhatsAppClick('top_bar')}
             className="flex items-center gap-2 bg-green-600 hover:bg-green-500 px-4 py-2 rounded transition font-semibold text-sm shadow-lg"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -162,6 +172,7 @@ export default function Header() {
         {/* Hemen Ara Button */}
         <a
           href="tel:+905336681981"
+          onClick={() => trackPhoneClick('mobile_bottom')}
           className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 px-3 rounded-lg font-semibold text-sm flex items-center justify-center gap-2 transition transform hover:scale-105"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -175,6 +186,7 @@ export default function Header() {
           href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick('mobile_bottom')}
           className="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 px-3 rounded-lg font-semibold text-sm flex items-center justify-center gap-2 transition transform hover:scale-105"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

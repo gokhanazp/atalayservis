@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { Facebook, Twitter, Instagram, Phone, Mail, Clock } from 'lucide-react';
+import { trackWhatsAppClick, trackPhoneClick } from '@/lib/analytics';
 
 export default function Footer() {
   return (
@@ -17,6 +18,7 @@ export default function Footer() {
             <div className="flex gap-4">
               <a
                 href="tel:+905336681981"
+                onClick={() => trackPhoneClick('footer_cta')}
                 className="bg-white text-red-600 px-8 py-3 rounded-lg font-bold hover:bg-red-50 transition transform hover:scale-105"
               >
                 📞 Hemen Ara
@@ -25,6 +27,7 @@ export default function Footer() {
                 href="https://wa.me/905336681981"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackWhatsAppClick('footer_cta')}
                 className="bg-white/20 border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/30 transition"
               >
                 💬 WhatsApp
