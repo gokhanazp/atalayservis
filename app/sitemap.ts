@@ -1,15 +1,45 @@
 import { MetadataRoute } from 'next';
 
-// İstanbul ilçeleri listesi
+// İstanbul ilçeleri listesi - URL-safe slug formatı (Türkçe karakterler kaldırıldı)
 const districts = [
-  'adalar', 'arnavutköy', 'ataşehir', 'avcılar', 'bağcılar',
-  'bahçelievler', 'bakırköy', 'başakşehir', 'bayrampaşa', 'beşiktaş',
-  'beykoz', 'beylikdüzü', 'beyoğlu', 'büyükçekmece', 'çatalca',
-  'çekmeköy', 'esenler', 'esenyurt', 'eyüpsultan', 'fatih',
-  'gaziosmanpaşa', 'güngören', 'kadıköy', 'kağıthane', 'kartal',
-  'küçükçekmece', 'maltepe', 'pendik', 'sarıyer', 'şile',
-  'silivri', 'şişli', 'sultangazi', 'taksim', 'tuzla',
-  'ümraniye', 'üsküdar', 'zeytinburnu'
+  'adalar-atalay-servisi',
+  'arnavutkoy-atalay-servisi',
+  'atashehir-atalay-servisi',
+  'avcilar-atalay-servisi',
+  'bagcilar-atalay-servisi',
+  'bahcelievler-atalay-servisi',
+  'bakirkoy-atalay-servisi',
+  'basaksehir-atalay-servisi',
+  'bayrampasa-atalay-servisi',
+  'besiktas-atalay-servisi',
+  'beykoz-atalay-servisi',
+  'beylikduzu-atalay-servisi',
+  'beyoglu-atalay-servisi',
+  'buyukcekmece-atalay-servisi',
+  'catalca-atalay-servisi',
+  'cekmekoy-atalay-servisi',
+  'esenler-atalay-servisi',
+  'esenyurt-atalay-servisi',
+  'eyupsultan-atalay-servisi',
+  'fatih-atalay-servisi',
+  'gaziosmanpasa-atalay-servisi',
+  'gungoren-atalay-servisi',
+  'kadikoy-atalay-servisi',
+  'kagithane-atalay-servisi',
+  'kartal-atalay-servisi',
+  'kucukcekmece-atalay-servisi',
+  'maltepe-atalay-servisi',
+  'pendik-atalay-servisi',
+  'sariyer-atalay-servisi',
+  'sile-atalay-servisi',
+  'silivri-atalay-servisi',
+  'sisli-atalay-servisi',
+  'sultangazi-atalay-servisi',
+  'taksim-atalay-servisi',
+  'tuzla-atalay-servisi',
+  'umraniye-atalay-servisi',
+  'uskudar-atalay-servisi',
+  'zeytinburnu-atalay-servisi'
 ];
 
 // Blog yazıları
