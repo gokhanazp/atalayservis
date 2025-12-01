@@ -425,7 +425,7 @@ export default function Home() {
               Atalay Servis ile iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:
             </p>
             <ul className="list-disc list-inside space-y-2">
-              <li><strong>Telefon:</strong> +90 533 668 19 81</li>
+              <li><strong>Telefon:</strong> +90 536 931 96 67</li>
               <li><strong>E-mail:</strong> info@atalayservis.com</li>
             </ul>
 

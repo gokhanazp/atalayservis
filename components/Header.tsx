@@ -15,14 +15,14 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center gap-4">
           <div className="flex gap-8 items-center">
             <a
-              href="tel:+905336681981"
+              href="tel:+905369319667"
               onClick={() => trackPhoneClick('top_bar')}
               className="flex items-center gap-2 hover:text-red-400 transition group"
             >
               <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
               </svg>
-              <span className="font-light tracking-wide">+90 533 668 19 81</span>
+              <span className="font-light tracking-wide">+90 536 931 96 67</span>
             </a>
             <div className="w-px h-6 bg-gray-700"></div>
             <a
@@ -37,7 +37,7 @@ export default function Header() {
             </a>
           </div>
           <a
-            href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
+            href="https://wa.me/905369319667?text=Merhaba%20Atalay%20Servis"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackWhatsAppClick('top_bar')}
@@ -171,7 +171,7 @@ export default function Header() {
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-gradient-to-r from-red-600 to-red-700 flex gap-2 px-2 py-2 shadow-2xl z-40">
         {/* Hemen Ara Button */}
         <a
-          href="tel:+905336681981"
+          href="tel:+905369319667"
           onClick={() => trackPhoneClick('mobile_bottom')}
           className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 px-3 rounded-lg font-semibold text-sm flex items-center justify-center gap-2 transition transform hover:scale-105"
         >
@@ -183,7 +183,7 @@ export default function Header() {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/905336681981?text=Merhaba%20Atalay%20Servis"
+          href="https://wa.me/905369319667?text=Merhaba%20Atalay%20Servis"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackWhatsAppClick('mobile_bottom')}
