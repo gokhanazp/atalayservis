@@ -139,7 +139,7 @@ export default function Footer() {
           {/* Divider */}
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-              <p>&copy; 2024 Atalay Servis. Tüm hakları saklıdır.</p>
+              <p>&copy; 2024 Atalay Servis. Tüm hakları saklıdır. Designed by <a href="https://gokhan-yildirim.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition">gokhan-yildirim.com</a></p>
               <div className="flex gap-6">
                 <Link href="#" className="hover:text-red-600 transition">Gizlilik Politikası</Link>
                 <Link href="#" className="hover:text-red-600 transition">Kullanım Şartları</Link>
