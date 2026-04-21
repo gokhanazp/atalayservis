@@ -9,6 +9,7 @@ import { CheckCircle2, Clock, DollarSign, Award, Zap, Wrench } from 'lucide-reac
 const services: Record<string, any> = {
   'atalay-ocak-servisi': {
     title: 'Ocak Servisi',
+    metaTitle: 'Ocak Servisi | Endüstriyel Sanayi Ocak',
     description: 'Profesyonel ocak bakım ve onarım hizmetleri',
     keywords: 'ocak servisi, ocak onarım, ocak bakım, İstanbul',
     isHTML: true,
@@ -433,6 +434,7 @@ const services: Record<string, any> = {
   },
   'atalay-fritoz-servisi': {
     title: 'Fritöz Servisi',
+    metaTitle: 'Fritöz Servisi | İstanbul Fritöz servisi tamircisi',
     description: 'Fritöz bakım, temizlik ve onarım hizmetleri',
     keywords: 'fritöz servisi, fritöz onarım, fritöz bakım, İstanbul',
     isHTML: true,
@@ -710,6 +712,7 @@ const services: Record<string, any> = {
   },
   'atalay-kuzine-servisi': {
     title: 'Kuzine Servisi',
+    metaTitle: 'Kuzine Servisi | İstanbul Kuzine servisi tamircisi',
     description: 'Endüstriyel kuzine ekipmanları bakım ve onarım',
     keywords: 'kuzine servisi, kuzine onarım, kuzine bakım, İstanbul',
     isHTML: true,
@@ -998,7 +1001,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${service.title} | Atalay Servis`,
+    title: service.metaTitle || `${service.title} | Atalay Servis`,
     description: service.description,
   };
 }
