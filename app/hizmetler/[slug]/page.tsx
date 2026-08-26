@@ -1231,7 +1231,7 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
                   📧 İletişim Formu
                 </Link>
                 <a
-                  href="https://wa.me/905369319667?text=Merhaba%20Atalay%20Servis"
+                  href="https://wa.me/905013001981?text=Merhaba%20Atalay%20Servis"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 text-white hover:bg-green-600 px-8 py-4 rounded-xl font-bold transition shadow-lg transform hover:scale-105 duration-300"
@@ -1239,7 +1239,7 @@ export default async function ServiceDetail({ params }: { params: Promise<{ slug
                   💬 WhatsApp
                 </a>
                 <a
-                  href="tel:+905369319667"
+                  href="tel:+905013001981"
                   className="bg-blue-500 text-white hover:bg-blue-600 px-8 py-4 rounded-xl font-bold transition shadow-lg transform hover:scale-105 duration-300"
                 >
                   ☎️ Telefon
