@@ -87,7 +87,7 @@ export default async function DistrictService({ params }: { params: Promise<{ di
     "provider": {
       "@type": "LocalBusiness",
       "name": "Atalay Servis",
-      "telephone": "+905013001981",
+      "telephone": "+905369319667",
       "url": "https://atalayservis.com"
     },
     "areaServed": {

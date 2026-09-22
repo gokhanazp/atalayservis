@@ -74,7 +74,7 @@ Küçükçekmece Atalay Servisi → /servis/kucukcekmece-atalay-servisi
    - İletişim
 
 4. **İletişim Bilgileri**
-   - 📞 Telefon: +90 501 300 19 81 (24/7 Hizmet)
+   - 📞 Telefon: +90 536 931 96 67 (24/7 Hizmet)
    - 📧 E-mail: info@atalayservis.com
    - 📍 Adres: Kasımpaşa, İstanbul (Tüm İstanbul)
 
