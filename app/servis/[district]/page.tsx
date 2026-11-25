@@ -63,6 +63,8 @@ export async function generateMetadata({ params }: { params: Promise<{ district:
   };
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return districts.map((district) => ({
     district: district.slug,

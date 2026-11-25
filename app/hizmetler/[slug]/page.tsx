@@ -1006,6 +1006,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return Object.keys(services).map((slug) => ({
     slug,

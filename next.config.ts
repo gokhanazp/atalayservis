@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Image optimization
+  // Cloudflare Workers (static assets) için statik export
+  output: "export",
+  // Image optimization (statik export'ta Next görsel optimizasyonu çalışmaz)
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -19,22 +22,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // Production source maps
   productionBrowserSourceMaps: false,
-  // Redirects - non-www to www
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'atalayservisi.com',
-          },
-        ],
-        destination: 'https://www.atalayservisi.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
+  // Not: non-www -> www yönlendirmesi artık Cloudflare Redirect Rule ile yapılıyor.
 };
 
 export default nextConfig;

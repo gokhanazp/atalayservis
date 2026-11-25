@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 // İstanbul ilçeleri listesi - URL-safe slug formatı (Türkçe karakterler kaldırıldı)
 const districts = [
   'adalar-atalay-servisi',
